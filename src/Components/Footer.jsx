@@ -1,11 +1,13 @@
+'use client'
 import React from 'react'
+import ThemeToggle from './ThemeToggle'
 
 const Footer = () => {
   return (
-    <>
+    <div className='bg-white dark:bg-[#171717]'>
   {/* ========== FOOTER ========== */}
 
-  <hr className='mt-16 border-neutral-600' />
+  <hr className='border-neutral-600' />
 
 
   <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
@@ -101,10 +103,12 @@ const Footer = () => {
       </div>
       {/* End Social Brands */}
     </div>
+
+    <ThemeToggle />
     {/* End Grid */}
   </footer>
   {/* ========== END FOOTER ========== */}
-</>
+</div>
 
 
   )

@@ -5,9 +5,9 @@ const Navbar = () => {
     <>
   {/* ========== HEADER ========== */}
   <header className="flex flex-wrap  md:justify-start h-20 md:flex-nowrap z-50 w-full bg-white border-b border-gray-200 dark:bg-[#171717] dark:border-neutral-700">
-    <nav className="relative max-w-[85rem] w-full mx-auto flex items-center justify-between gap-3 py-2 px-4 sm:px-6 lg:px-8">
+    <nav className="relative max-w-[90rem] w-full mx-auto flex items-center justify-between gap-3 py-2 px-4 sm:px-6 lg:px-8">
       <a
-        className="flex-none font-semibold text-2xl text-black focus:outline-none focus:opacity-80 dark:text-white"
+        className="flex-none font-semibold text-3xl text-black focus:outline-none focus:opacity-80 dark:text-white"
         href="#"
         aria-label="Brand"
       >
@@ -80,7 +80,7 @@ const Navbar = () => {
       {/* Collapse */}
       <div
         id="hs-header-base"
-        className="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full fixed top-0 start-0 transition-all duration-300 transform h-full max-w-xs w-full z-[60] bg-white border-e basis-full grow md:order-2 md:static md:block md:h-auto md:max-w-none md:w-auto md:border-e-transparent md:transition-none md:translate-x-0 md:z-40 md:basis-auto dark:bg-[#171717] dark:border-e-gray-700 md:dark:border-e-transparent hidden "
+        className="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full fixed top-0 start-0 transition-all duration-200 transform h-full max-w-xs w-full z-[60] bg-white border-e basis-full grow md:order-2 md:static md:block md:h-auto md:max-w-none md:w-auto md:border-e-transparent md:transition-none md:translate-x-0 md:z-40 md:basis-auto dark:bg-[#171717] dark:border-e-gray-700 md:dark:border-e-transparent hidden "
         role="dialog"
         tabIndex={-1}
         aria-label="Sidebar"
