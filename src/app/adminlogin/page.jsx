@@ -4,7 +4,7 @@ const adminLogin = () => {
   return (
     <div>
         <h1 className='text-center my-8 text-4xl font-thin text-red-500'>Welcome Back!</h1>
-    <div className="mt-7 bg-white mx-auto mx-4 border max-w-[350px] mb-10 border-gray-200 rounded-xl shadow-sm dark:bg-neutral-900 dark:border-neutral-700">
+    <div className="mt-7 bg-white mx-auto mx-4 border max-w-[350px] mb-20 border-gray-200 rounded-xl shadow-sm dark:bg-neutral-900 dark:border-neutral-700">
   <div className="p-4 sm:p-7">
     <div className="text-center">
       <h1 className="block text-2xl font-medium text-gray-800 dark:text-white">
