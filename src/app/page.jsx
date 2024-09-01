@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
 
-    <div className='bg-white dark:bg-[#171717]'>
+    <div>
       {/* Hero */}
       <div className="overflow-hidden">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -13,9 +13,9 @@ const Home = () => {
               <p className="text-xs font-semibold text-gray-500 tracking-wide uppercase mb-3 dark:text-neutral-200">
                 Small business solutions
               </p>
-              <h1 className="text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
+              <h1 className="text-3xl text-gray-800 font-thin sm:text-5xl lg:text-6xl lg:leading-tight dark:text-neutral-200">
                 Invest With Us To Get {" "}
-                <span className="text-red-500">Extraordinary Returns</span>
+                <span className="text-red-500 font-bold">Extraordinary Returns</span>
               </h1>
             </div>
             {/* End Title */}
@@ -76,7 +76,7 @@ const Home = () => {
                   <input
                     type="text"
                     id="hs-hero-name-1"
-                    className="py-3 px-4 block w-full border-transparent rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-neutral-900 dark:border-transparent dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                    className="py-2 px-4 block w-full border-transparent rounded-lg text-md outline-none focus:ring-blue-500 dark:bg-neutral-900 dark:border-transparent dark:text-neutral-400 dark:placeholder-neutral-500"
                     placeholder="Your Username"
                   />
                 </div>
@@ -90,7 +90,7 @@ const Home = () => {
                   <input
                     type="email"
                     id="hs-hero-email-1"
-                    className="py-3 px-4 block w-full border-transparent rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-neutral-900 dark:border-transparent dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600"
+                    className="py-2 px-4 block w-full border-transparent rounded-lg text-md outline-none dark:bg-neutral-900 dark:border-transparent dark:text-neutral-400 dark:placeholder-neutral-500"
                     placeholder="Your Reference Number"
                   />
                 </div>
@@ -197,8 +197,8 @@ const Home = () => {
 
       <>
         {/* Testimonials */}
-        <div className="relative h-[550px] mt-10 z-10 overflow-hidden">
-          <div className="max-w-[85rem] px-4 py-12 sm:px-6 lg:px-8 lg:py-16 mx-auto">
+        <div className="relative h-[450px] mt-10 z-10 overflow-hidden">
+          <div className="max-w-[85rem] px-4 py-12 sm:px-6 lg:px-8 lg:py-10 mx-auto">
             {/* Gradients */}
             <div aria-hidden="true" className="flex -z-[1] absolute start-0">
               <div className="bg-red-300 opacity-30 border blur-3xl w-[1136px] h-[300px] dark:bg-red-900 dark:opacity-20" />
@@ -230,7 +230,7 @@ const Home = () => {
                     />
                   </svg>
                   <p className="text-xl font-medium text-gray-800 lg:text-2xl lg:leading-normal dark:text-neutral-200">
-                    Yahan tumhare chacchaa ki photo lagegi To say that switching to Preline has been life-changing is an
+                    To say that switching to Preline has been life-changing is an
                     understatement. My business has tripled and I got my life back.
                   </p>
                   <footer className="mt-6">

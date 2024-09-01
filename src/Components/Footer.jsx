@@ -4,7 +4,7 @@ import ThemeToggle from './ThemeToggle'
 
 const Footer = () => {
   return (
-    <div className='bg-white dark:bg-[#171717]'>
+    <div>
   {/* ========== FOOTER ========== */}
 
   <hr className='border-neutral-600' />

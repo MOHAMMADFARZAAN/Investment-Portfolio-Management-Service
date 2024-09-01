@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
   <header className="flex flex-wrap  md:justify-start h-20 md:flex-nowrap z-50 w-full bg-white border-b border-gray-200 dark:bg-[#171717] dark:border-neutral-700">
     <nav className="relative max-w-[90rem] w-full mx-auto flex items-center justify-between gap-3 py-2 px-4 sm:px-6 lg:px-8">
       <a
-        className="flex-none font-semibold text-3xl text-black focus:outline-none focus:opacity-80 dark:text-white"
+        className="flex-none font-thin text-4xl text-red-500 focus:outline-none focus:opacity-80"
         href="#"
         aria-label="Brand"
       >
@@ -312,9 +313,9 @@ const Navbar = () => {
                   </svg>
                   Work
                 </a>
-                <a
+                <Link
                   className="p-2 px-4 flex items-center text-sm text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
-                  href="#"
+                  href="adminlogin"
                 >
                   <svg
                     className="shrink-0 size-4 me-3 md:me-2 block md:hidden"
@@ -334,7 +335,7 @@ const Navbar = () => {
                     <path d="M10 6h8v4h-8V6Z" />
                   </svg>
                   Admin Login
-                </a>
+                </Link>
               </div>
             </div>
           </div>
